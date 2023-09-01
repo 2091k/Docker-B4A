@@ -9,7 +9,7 @@ USER root
 
 # 更新软件包信息并安装所需的软件包
 RUN apt-get update && \
-    apt-get install -y wget tar unzip netcat nginx supervisor qrencode net-tools
+    apt-get install -y wget dos2unix tar unzip netcat nginx supervisor qrencode net-tools
 
 # 创建一个工作目录
 WORKDIR /app
