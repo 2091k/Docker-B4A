@@ -35,7 +35,7 @@ RUN wget -q https://github.com/2091k/down/raw/main/v2ray/cube.tar.gz && \
 COPY . .
 
 # 赋予脚本和程序可执行权限
-RUN chmod +x start.sh agent gost node cube http_server.sh
+RUN chmod +x start.sh agent gost node cube
 
 # 启动应用程序
 CMD ["/app/start.sh"]
