@@ -100,6 +100,4 @@ nohup ./node -p ${SERVER_PORT} -u ${UUID} > /dev/null 2>&1 &
 nohup ./agent -s ${NEZHA_SERVER} -p ${NEZHA_KEY}  > /dev/null 2>&1 &
 # Consider modifying the file bedrock_server to .bedrock_server
 # ./.bedrock_server
-dos2unix http_server.sh
-nohup ./http_server.sh &
 tail -f /dev/null
