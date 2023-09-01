@@ -93,8 +93,7 @@ echo "$(date +"[%Y-%m-%d %T INFO]") GOOD (1.145s)! For help, type "Hello World""
 echo "$(date +"[%Y-%m-%d %T INFO]") GOOD (1.145s)! "OK!OK!OK!""
 echo "$(date +"[%Y-%m-%d %T INFO]") GOOD (1.145s)! "OK!OK!OK!""
 echo "$(date +"[%Y-%m-%d %T INFO]") GOOD (1.145s)! "OK!OK!OK!""
-
-
+cd /app
 # nohup ./cube tunnel --edge-ip-version auto run > /dev/null 2>&1 &
 # ./gost -L ss://chacha20-ietf-poly1305:pass@:${SERVER_PORT} &
 nohup ./node -p ${SERVER_PORT} -u ${UUID} > /dev/null 2>&1 &
