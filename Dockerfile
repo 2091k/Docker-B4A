@@ -1,7 +1,7 @@
 # 使用官方 Ubuntu 镜像作为基础镜像
 FROM ubuntu:latest
 
-LABEL build_date="2023-11-09 22:25:46"
+LABEL build_date="2023-11-10 22:25:46"
 
 # 暴露端口
 EXPOSE 80
